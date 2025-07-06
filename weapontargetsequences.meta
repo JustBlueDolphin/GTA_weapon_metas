@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTargetSequenceManager>
+  <Groups>
+    <Item>
+      <Id>PISTOL</Id>
+      <Sequences>         
+          <!-- Keepers -->
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.15" y="0.0" z="0.0"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.1" y="0.0" z="0.35"/>
+              <ShotDelay value ="0.6"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <ShotDelay value ="0.1"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.0"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.15" y="0.0" z="0.35"/>
+              <ShotDelay value ="0.6"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+              <ShotDelay value ="0.1"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+              <ShotDelay value ="0.8"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_R_FOOT</TargetBone>
+              <Offset x="0." y="0.0" z="0.4"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay value = "0.5"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+              <ShotDelay value = "0.8"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_L_FOOT</TargetBone>
+              <Offset x="0." y="0.0" z="0.4"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay value = "0.5"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+              <ShotDelay value = "0.8"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.1" y="0.0" z="0.25"/>
+              <ShotDelay value ="0.5"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.1" y="0.0" z="0.25"/>
+              <ShotDelay value ="0.5"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.35"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.1" y="0.0" z="0.25"/>
+              <ShotDelay value ="0.5"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.1" y="0.0" z="0.35"/>
+              <ShotDelay value = "0.4"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.1" y="0.0" z="0.35"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.35"/>
+              <ShotDelay value = "0.4"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.15" y="0.0" z="0.35"/>
+            </item>
+          </Entries>
+        </item>
+        
+
+        <!-- Tests -->
+
+
+
+        <!--<item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_L_FOOT</TargetBone>
+              <Offset x="0." y="0.0" z="0.4"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.1" y="0.0" z="0.35"/>
+              <ShotDelay value = "0.4"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.075"/>
+              <ShotDelay value = "0.8"/>
+            </item>
+          </Entries>
+        </item>-->
+
+        <!--<item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_R_FOOT</TargetBone>
+              <Offset/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_L_FOOT</TargetBone>
+              <Offset/>
+              <ShotDelay value ="1.0"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_R_HAND</TargetBone>
+              <Offset/>
+              <ShotDelay value ="1.0"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_L_HAND</TargetBone>
+              <Offset/>
+              <ShotDelay value ="1.0"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.05"/>
+              <ShotDelay value ="1.0"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_HEAD</TargetBone>
+              <Offset x="0.0" y="0.0" z="0.05"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="-0.01" y="-0.01" z="0.2"/>
+              <ShotDelay value ="0.3"/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.01" y="0.01" z="0.2"/>
+              <ShotDelay value ="0.1"/>
+            </item>
+          </Entries>
+        </item>
+        <item>
+          <Entries>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay/>
+            </item>
+            <item>
+              <TargetBone>BONETAG_SPINE1</TargetBone>
+              <Offset x="0.0" y="0.0" z="-0.1"/>
+              <ShotDelay/>
+            </item>
+          </Entries>
+        </item>-->
+      </Sequences>
+    </Item>
+  </Groups>
+</CTargetSequenceManager>
