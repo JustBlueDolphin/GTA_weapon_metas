@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WeaponShopItemArray>
+	<weaponShopItems>
+		<Item>
+			<lockHash>CU_WEP_GUSENBERG</lockHash>
+			<nameHash>WEAPON_GUSENBERG</nameHash>
+			<cost value ="14600"/>
+			<ammoCost value="108"/>
+			<textLabel>WT_GUSNBRG</textLabel>
+			<weaponDesc>WTD_GUSNBRG</weaponDesc>
+			<weaponTT>WTT_GUSNBRG</weaponTT>
+			<weaponUppercase>WTU_GUSNBRG</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents>
+				<Item>
+					<componentName>COMPONENT_GUSENBERG_CLIP_01</componentName>
+					<cost value = "9960"/>
+					<textLabel>WCT_CLIP1</textLabel>
+					<componentDesc>WCD_GSNB_CLIP1</componentDesc>
+				</Item>
+				<Item>
+					<componentName>COMPONENT_GUSENBERG_CLIP_02</componentName>
+					<cost value = "9960"/>
+					<textLabel>WCT_CLIP2</textLabel>
+					<componentDesc>WCD_GSNB_CLIP2</componentDesc>
+				</Item>
+			</weaponComponents>
+			<availableInSP value="true" />
+		</Item>
+	</weaponShopItems>
+</WeaponShopItemArray>	

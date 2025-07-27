@@ -5,7 +5,7 @@
     <Item>
       <WeaponSlots>
         <Item>
-          <OrderNumber value="202" />
+          <OrderNumber value="201" />
           <Entry>SLOT_SPECIALCARBINE</Entry>
         </Item>
       </WeaponSlots>
@@ -13,7 +13,7 @@
     <Item>
       <WeaponSlots>
         <Item>
-          <OrderNumber value="212" />
+          <OrderNumber value="211" />
           <Entry>SLOT_SPECIALCARBINE</Entry>
         </Item>
       </WeaponSlots>
@@ -60,7 +60,7 @@
           <AccuracySpread value="3.000000" />
           <AccurateModeAccuracyModifier value="0.500000" />
           <RunAndGunAccuracyModifier value="2.000000" />
-          <RunAndGunAccuracyMinOverride value="-1.000000" />
+          <RunAndGunAccuracyMaxModifier value="1.000000" />
           <RecoilAccuracyMax value="0.500000" />
           <RecoilErrorTime value="3.000000" />
           <RecoilRecoveryRate value="1.000000" />
@@ -79,7 +79,6 @@
           <HitLimbsDamageModifier value="0.500000" />
           <NetworkHitLimbsDamageModifier value="0.800000" />
           <LightlyArmouredDamageModifier value="0.750000" />
-          <VehicleDamageModifier value="1.000000" />
           <Force value="75.000000" />
           <ForceHitPed value="140.000000" />
           <ForceHitVehicle value="1200.000000" />
@@ -149,7 +148,7 @@
             <EffectGroup>WEAPON_EFFECT_GROUP_RIFLE_ASSAULT</EffectGroup>
             <FlashFx>muz_assault_rifle</FlashFx>
             <FlashFxAlt>muz_alternate_star</FlashFxAlt>
-            <FlashFxFP>muz_assault_rifle_fp</FlashFxFP>
+            <FlashFxFP />
             <FlashFxFPAlt />
             <MuzzleSmokeFx />
             <MuzzleSmokeFxFP />
@@ -157,7 +156,7 @@
             <MuzzleSmokeFxIncPerShot value="0.000000" />
             <MuzzleSmokeFxDecPerSec value="0.000000" />
             <ShellFx>eject_auto</ShellFx>
-            <ShellFxFP>eject_auto_fp</ShellFxFP>
+            <ShellFxFP />
             <TracerFx>bullet_tracer</TracerFx>
             <PedDamageHash>BulletLarge</PedDamageHash>
             <TracerFxChanceSP value="0.150000" />
@@ -189,10 +188,10 @@
           <RumbleIntensity value="0.100000" />
           <RumbleIntensityTrigger value="0.800000" />
           <RumbleDamageIntensity value="1.000000" />
-          <InitialRumbleDurationFps value="120" />
+          <InitialRumbleDurationFps value="80" />
           <InitialRumbleIntensityFps value="0.900000" />
-          <RumbleDurationFps value="90" />
-          <RumbleIntensityFps value="0.200000" />
+          <RumbleDurationFps value="50" />
+          <RumbleIntensityFps value="0.900000" />
           <NetworkPlayerDamageModifier value="1.000000" />
           <NetworkPedDamageModifier value="1.000000" />
           <NetworkHeadShotPlayerDamageModifier value="1.700000" />
@@ -206,8 +205,6 @@
           <DamageFallOffModifier value="0.300000" />
           <VehicleWeaponHash />
           <DefaultCameraHash>DEFAULT_THIRD_PERSON_PED_AIM_CAMERA</DefaultCameraHash>
-          <AimCameraHash />
-          <FireCameraHash />
           <CoverCameraHash>DEFAULT_THIRD_PERSON_PED_AIM_IN_COVER_CAMERA</CoverCameraHash>
           <CoverReadyToFireCameraHash />
           <RunAndGunCameraHash>DEFAULT_THIRD_PERSON_PED_RUN_AND_GUN_CAMERA</RunAndGunCameraHash>
@@ -224,15 +221,15 @@
           <FirstPersonRNGRotationOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonLTOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonLTRotationOffset x="0.000000" y="0.000000" z="0.000000" />
-          <FirstPersonScopeOffset x="0.000000" y="0.000000" z="-0.041000" />
-          <FirstPersonScopeAttachmentOffset x="0.000000" y="0.125000" z="-0.063000" />
-          <FirstPersonScopeRotationOffset x="-0.300000" y="0.000000" z="0.000000" />
+          <FirstPersonScopeOffset x="0.000000" y="0.000000" z="-0.040000" />
+          <FirstPersonScopeAttachmentOffset x="0.000000" y="0.075000" z="-0.065000" />
+          <FirstPersonScopeRotationOffset x="-0.700000" y="0.000000" z="0.000000" />
           <FirstPersonScopeAttachmentRotationOffset x="0.000000" y="0.000000" z="0.000000" />
-          <FirstPersonAsThirdPersonIdleOffset x="-0.100000" y="0.050000" z="0.000000" />
-          <FirstPersonAsThirdPersonRNGOffset x="-0.050000" y="-0.050000" z="-0.075000" />
-          <FirstPersonAsThirdPersonLTOffset x="0.000000" y="0.050000" z="-0.100000" />
-          <FirstPersonAsThirdPersonScopeOffset x="0.070000" y="-0.018000" z="-0.050000" />
-          <FirstPersonAsThirdPersonWeaponBlockedOffset x="-0.000000" y="0.100000" z="-0.050000" />
+          <FirstPersonAsThirdPersonIdleOffset x="-0.1000000" y="0.000000" z="0.000000" />
+          <FirstPersonAsThirdPersonRNGOffset x="-0.050" y="-0.0500000" z="-0.07500000" />
+          <FirstPersonAsThirdPersonLTOffset x="0.0400000" y="0.000000" z="-0.040000" />
+          <FirstPersonAsThirdPersonScopeOffset x="0.08000" y="0.000000" z="-0.0400000" />
+          <FirstPersonAsThirdPersonWeaponBlockedOffset x="-0.1500000" y="0.000000" z="-0.05000" />
           <FirstPersonDofSubjectMagnificationPowerFactorNear value="1.025000" />
           <FirstPersonDofMaxNearInFocusDistance value="0.000000" />
           <FirstPersonDofMaxNearInFocusDistanceBlendLevel value="0.300000" />
@@ -264,14 +261,6 @@
           <AimOffsetEndPosMinFPSIdle x="-0.284000" y="0.612000" z="-0.205000" />
           <AimOffsetEndPosMedFPSIdle x="-0.178000" y="0.639000" z="0.616000" />
           <AimOffsetEndPosMaxFPSIdle x="-0.217000" y="-0.096000" z="0.887000" />
-          <AimOffsetEndPosMinFPSLT x="0.000000" y="0.000000" z="0.000000" />
-          <AimOffsetEndPosMedFPSLT x="0.000000" y="0.000000" z="0.000000" />
-          <AimOffsetEndPosMaxFPSLT x="0.000000" y="0.000000" z="0.000000" />
-          <AimProbeRadiusOverrideFPSIdle value="0.000000" />
-          <AimProbeRadiusOverrideFPSIdleStealth value="0.000000" />
-          <AimProbeRadiusOverrideFPSLT value="0.000000" />
-          <AimProbeRadiusOverrideFPSRNG value="0.000000" />
-          <AimProbeRadiusOverrideFPSScope value="0.000000" />
           <TorsoAimOffset x="-1.000000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.100000" y="0.120000" />
           <LeftHandIkOffset x="0.015000" y="0.095000" z="-0.008000" />
@@ -300,10 +289,6 @@
                   <Name>COMPONENT_SPECIALCARBINE_CLIP_02</Name>
                   <Default value="false" />
                 </Item>
-                <Item>
-                  <Name>COMPONENT_SPECIALCARBINE_CLIP_03</Name>
-                  <Default value="false" />
-                </Item>
               </Components>
             </Item>
             <Item>
@@ -316,7 +301,7 @@
               </Components>
             </Item>
             <Item>
-              <AttachBone>WAPScop_2</AttachBone>
+              <AttachBone>WAPScop</AttachBone>
               <Components>
                 <Item>
                   <Name>COMPONENT_AT_SCOPE_MEDIUM</Name>
@@ -342,32 +327,10 @@
                 </Item>
               </Components>
             </Item>
-            <Item>
-              <AttachBone>gun_root</AttachBone>
-              <Components>
-                <Item>
-                  <Name>COMPONENT_SPECIALCARBINE_VARMOD_LOWRIDER</Name>
-                  <Default value="false" />
-                </Item>
-                <Item>
-                  <Name>COMPONENT_SPECIALCARBINE_VARMOD_XMAS23</Name>
-                  <Default value="false" />
-                </Item>				
-              </Components>
-            </Item>
-			<Item>
-              <AttachBone>gun_gripr</AttachBone>
-              <Components>
-                <Item>
-                  <Name>COMPONENT_GUNRUN_MK2_UPGRADE</Name>
-                  <Default value="false" />
-                </Item>
-              </Components>
-            </Item>
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand Automatic Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired NoLeftHandIKWhenBlocked AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps LongWeapon UseFPSAimIK UseFPSSecondaryMotion FPSOnlyExitFireAnimAfterRecoilEnds</WeaponFlags>
+          <WeaponFlags>CarriedInHand Automatic Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired NoLeftHandIKWhenBlocked AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps LongWeapon UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="FIRING_PATTERN_RIFLE" />
           <ReloadUpperBodyFixupExpressionData ref="DEFAULT" />
@@ -388,7 +351,6 @@
           <HudAccuracy value="55" />
           <HudRange value="40" />
           <VehicleAttackAngle value="25.000000" />
-          <TorsoIKAngleLimit value="-1.000000" />
           <CamoDiffuseTexIdxs />
         </Item>
       </Infos>

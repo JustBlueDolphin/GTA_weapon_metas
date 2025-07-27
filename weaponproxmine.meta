@@ -94,10 +94,9 @@
           <CoronaIntensity value="1.000000" />
           <CoronaZBias value="0.020000" />
           <ProjectileFlags>Sticky ProcessImpacts CanBePlaced NoPullPin CanBeDestroyedByDamage ProximityDetonation</ProjectileFlags>
-		  <ProximityLightColourUntriggered x="1.000000" y="0.300000" z="0.000000" />
           <ThrownForce value="0.000000" />
           <ThrownForceFromVehicle value="5.000000" />
-          <AmmoMaxMPBonus value="5" />
+		  <UntriggeredProximityLightColour x="1.000000" y="0.300000" z="0.000000" />
         </Item>
 	  </Infos>
     </Item>

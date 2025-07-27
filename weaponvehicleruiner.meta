@@ -95,7 +95,7 @@
           <SpinUpTime value="0.001000" />
           <SpinTime value="0.500000" />
           <SpinDownTime value="0.500000" />
-          <AlternateWaitTime value="0.050000" />
+          <AlternateWaitTime value="-1.000000" />
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />

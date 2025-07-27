@@ -75,7 +75,7 @@
           <VehicleReloadTime value="-1.000000" />
           <AnimReloadRate value="1.000000" />
           <BulletsPerAnimLoop value="1" />
-          <TimeBetweenShots value="0.020000" />
+          <TimeBetweenShots value="0.040000" />
           <TimeLeftBetweenShotsWhereShouldFireIsCached value="-1.000000" />
           <SpinUpTime value="0.001000" />
           <SpinTime value="0.500000" />
@@ -111,7 +111,7 @@
           <LockOnRange value="0.000000" />
           <WeaponRange value="120.000000" />
           <BulletDirectionOffsetInDegrees value="0.200000" />
-          <AiSoundRange value="-1.000000" />
+          <AiSoundRange value="200.000000" />
           <AiPotentialBlastEventRange value="-1.000000" />
           <DamageFallOffRangeMin value="100.000000" />
           <DamageFallOffRangeMax value="120.000000" />

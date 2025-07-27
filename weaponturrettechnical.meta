@@ -98,11 +98,11 @@
             <FlashFxAltChance value="0.000000" />
             <FlashFxScale value="1.500000" />
           </Fx>
-          <InitialRumbleDuration value="150" />
-          <InitialRumbleIntensity value="0.400000" />
+          <InitialRumbleDuration value="50" />
+          <InitialRumbleIntensity value="1.000000" />
           <InitialRumbleIntensityTrigger value="0.950000" />
-          <RumbleDuration value="120" />
-          <RumbleIntensity value="0.400000" />
+          <RumbleDuration value="80" />
+          <RumbleIntensity value="0.900000" />
           <RumbleIntensityTrigger value="0.850000" />
           <RumbleDamageIntensity value="1.000000" />
           <NetworkPlayerDamageModifier value="1.000000" />
@@ -111,7 +111,7 @@
           <LockOnRange value="0.000000" />
           <WeaponRange value="500.000000" />
           <BulletDirectionOffsetInDegrees value="0.000000" />
-          <AiSoundRange value="200.000000" />
+          <AiSoundRange value="-1.000000" />
           <AiPotentialBlastEventRange value="-1.000000" />
           <DamageFallOffRangeMin value="500.000000" />
           <DamageFallOffRangeMax value="500.000000" />

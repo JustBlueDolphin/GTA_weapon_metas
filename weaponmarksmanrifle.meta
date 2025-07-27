@@ -60,7 +60,7 @@
           <AccuracySpread value="4.000000" />
           <AccurateModeAccuracyModifier value="0.500000" />
           <RunAndGunAccuracyModifier value="2.000000" />
-          <RunAndGunAccuracyMinOverride value="0.500000" />
+          <RunAndGunAccuracyMaxModifier value="0.500000" />
           <RecoilAccuracyMax value="1.000000" />
           <RecoilErrorTime value="0.000000" />
           <RecoilRecoveryRate value="1.000000" />
@@ -184,9 +184,9 @@
           <DamageFallOffRangeMax value="1000.000000" />
           <DamageFallOffModifier value="0.300000" />
           <VehicleWeaponHash />
-          <DefaultCameraHash>SNIPER_FIXED_ZOOM_AIM_CAMERA</DefaultCameraHash>
+          <DefaultCameraHash>SNIPER_AIM_CAMERA</DefaultCameraHash>
           <CoverCameraHash>MELEE_AIM_IN_COVER_CAMERA</CoverCameraHash>
-          <CoverReadyToFireCameraHash>SNIPER_FIXED_ZOOM_AIM_CAMERA</CoverReadyToFireCameraHash>
+          <CoverReadyToFireCameraHash>SNIPER_AIM_CAMERA</CoverReadyToFireCameraHash>
           <RunAndGunCameraHash>DEFAULT_THIRD_PERSON_PED_RUN_AND_GUN_CAMERA</RunAndGunCameraHash>
           <CinematicShootingCameraHash />
           <AlternativeOrScopedCameraHash />
@@ -202,20 +202,20 @@
           <FirstPersonLTOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonLTRotationOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonScopeOffset x="0.000000" y="0.000000" z="0.000000" />
-          <FirstPersonScopeAttachmentOffset x="0.000000" y="0.195000" z="0.000000" />
+          <FirstPersonScopeAttachmentOffset x="0.000000" y="0.290000" z="0.000000" />
           <FirstPersonScopeRotationOffset x="0.000000" y="0.000000" z="0.000000" />
           <FirstPersonScopeAttachmentRotationOffset x="0.000000" y="0.000000" z="0.000000" />
-          <FirstPersonAsThirdPersonIdleOffset x="-0.050000" y="0.000000" z="-0.025000" />
-          <FirstPersonAsThirdPersonRNGOffset x="0.080000" y="-0.050000" z="-0.070000" />
+          <FirstPersonAsThirdPersonIdleOffset x="-0.100000" y="0.000000" z="-0.025000000" />
+          <FirstPersonAsThirdPersonRNGOffset x="-0.0100000" y="0.000000" z="-0.0500000" />
           <FirstPersonAsThirdPersonLTOffset x="0.100000" y="0.000000" z="0.000000" />
-          <FirstPersonAsThirdPersonScopeOffset x="0.105000" y="0.000000" z="0.040000" />
-          <FirstPersonAsThirdPersonWeaponBlockedOffset x="-0.050000" y="0.100000" z="-0.050000" />
+          <FirstPersonAsThirdPersonScopeOffset x="0.110000" y="0.000000" z="0.000000" />
+          <FirstPersonAsThirdPersonWeaponBlockedOffset x="-0.0500000" y="0.000000" z="-0.100000" />
           <FirstPersonDofSubjectMagnificationPowerFactorNear value="1.025000" />
           <FirstPersonDofMaxNearInFocusDistance value="0.000000" />
           <FirstPersonDofMaxNearInFocusDistanceBlendLevel value="0.300000" />
           <ZoomFactorForAccurateMode value="1.000000" />
           <RecoilShakeHash>DEFAULT_FIRST_PERSON_RECOIL_SHAKE</RecoilShakeHash>
-          <RecoilShakeHashFirstPerson>DEFAULT_FIRST_PERSON_RECOIL_SHAKE</RecoilShakeHashFirstPerson>
+          <RecoilShakeHashFirstPerson />
           <AccuracyOffsetShakeHash />
           <MinTimeBetweenRecoilShakes value="150" />
           <RecoilShakeAmplitude value="0.280000" />
@@ -307,28 +307,10 @@
                 </Item>
               </Components>
             </Item>
-			<Item>
-              <AttachBone>gun_root</AttachBone>
-              <Components>
-                <Item>
-                  <Name>COMPONENT_MARKSMANRIFLE_VARMOD_LUXE</Name>
-                  <Default value="false" />
-                </Item>
-              </Components>
-            </Item>
-			<Item>
-              <AttachBone>gun_gripr</AttachBone>
-              <Components>
-                <Item>
-                  <Name>COMPONENT_GUNRUN_MK2_UPGRADE</Name>
-                  <Default value="false" />
-                </Item>
-              </Components>
-            </Item>
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand Automatic FirstPersonScope ApplyBulletForce Gun CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired NoLeftHandIKWhenBlocked HasLowCoverReloads HasLowCoverSwaps LongWeapon AllowMovementDuringFirstPersonScope DriveByMPOnly UseFPSAimIK DisableFPSAimForScope UseFPSSecondaryMotion</WeaponFlags>
+          <WeaponFlags>CarriedInHand Automatic FirstPersonScope ApplyBulletForce Gun CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover AllowEarlyExitFromFireAnimAfterBulletFired NoLeftHandIKWhenBlocked HasLowCoverReloads HasLowCoverSwaps LongWeapon AllowMovementDuringFirstPersonScope UseFPSAimIK DisableFPSAimForScope UseFPSSecondaryMotion</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="NULL" />
           <ReloadUpperBodyFixupExpressionData ref="DEFAULT" />

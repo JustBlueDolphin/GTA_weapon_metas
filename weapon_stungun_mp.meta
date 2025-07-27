@@ -40,7 +40,7 @@
         <Item type="CWeaponInfo">
           <Name>WEAPON_STUNGUN_MP</Name>
           <Model>w_pi_stungun</Model>
-          <Audio>AUDIO_ITEM_STUNGUN</Audio>
+          <Audio>AUDIO_ITEM_STUNGUN_MP</Audio>
           <Slot>SLOT_STUNGUN_MP</Slot>
           <DamageType>ELECTRIC</DamageType>
           <Explosion>
@@ -56,7 +56,7 @@
           <Group>GROUP_STUNGUN</Group>
           <AmmoInfo ref="AMMO_STUNGUN" />
           <AimingInfo ref="PISTOL_2H_BASE_STRAFE" />
-          <ClipSize value="2104529083" />
+          <ClipSize value="1" />
           <AccuracySpread value="1.000000" />
           <AccurateModeAccuracyModifier value="0.500000" />
           <RunAndGunAccuracyModifier value="2.000000" />
@@ -239,7 +239,17 @@
           <KnockdownCount value="-1" />
           <KillshotImpulseScale value="1.000000" />
           <NmShotTuningSet>Normal</NmShotTuningSet>
-          <AttachPoints />
+          <AttachPoints>
+            <Item>
+              <AttachBone>gun_root</AttachBone>
+              <Components>
+                <Item>
+                  <Name>COMPONENT_STUNGUN_VARMOD_BAIL</Name>
+                  <Default value="false" />
+                </Item>	
+              </Components>					
+            </Item>
+          </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
           <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover DoesRevivableDamage DisplayRechargeTimeHUD OnlyFireOneShot NonLethal AllowCloseQuarterKills DisablePlayerBlockingInMP CanPerformArrest HasLowCoverSwaps DontBreakRopes QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion DontPlayDryFireAnim FireAnimRateScaledToTimeBetweenShots</WeaponFlags>

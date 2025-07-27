@@ -304,7 +304,7 @@
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand ArmourPenetrating CanFreeAim MeleeClub UsableOnFoot UsableClimbing UsableInCover DoesRevivableDamage NonViolent AllowCloseQuarterKills HasLowCoverSwaps DisableCombatRoll NoWheelStats QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot UseFPSAimIK AllowMeleeBlock CanBeAimedLikeGunWithoutFiring HideReticule CanUseInVehMelee</WeaponFlags>
+          <WeaponFlags>CarriedInHand ArmourPenetrating CanFreeAim MeleeClub UsableOnFoot UsableClimbing UsableInCover DoesRevivableDamage NonViolent AllowCloseQuarterKills HasLowCoverSwaps DisableCombatRoll NoWheelStats QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot UseFPSAimIK AllowMeleeBlock CanBeAimedLikeGunWithoutFiring HideReticule</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="NULL" />
           <ReloadUpperBodyFixupExpressionData ref="default" />

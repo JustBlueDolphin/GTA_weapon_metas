@@ -402,13 +402,13 @@
                 <Item>
                   <Name>COMPONENT_HEAVYSNIPER_MK2_CAMO_IND_01</Name>
                   <Default value="false" />
-                </Item>		
+                </Item>
               </Components>
             </Item>
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand FirstPersonScope Gun CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover HasLowCoverReloads HasLowCoverSwaps IgnoreHelmets DriveByMPOnly UseFPSAimIK DisableFPSAimForScope UseFPSSecondaryMotion IncendiaryGuaranteedChance</WeaponFlags>
+          <WeaponFlags>CarriedInHand FirstPersonScope Gun CanFreeAim TwoHanded AnimReload AnimCrouchFire UsableOnFoot UsableInCover HasLowCoverReloads HasLowCoverSwaps IgnoreHelmets DriveByMPOnly UseFPSAimIK DisableFPSAimForScope UseFPSSecondaryMotion</WeaponFlags>
           <TintSpecValues ref="TINT_GUNRUNNING" />
           <FiringPatternAliases ref="NULL" />
           <ReloadUpperBodyFixupExpressionData ref="default" />
